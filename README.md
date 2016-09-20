@@ -1,10 +1,8 @@
 # Science Literacy Week: Learn To Code With HackMcGill
 
 ###### Note:
-This tutorial is designed to presented in person and give you a flavour for programming in under an hour, so there are a couple things missing... If you're reading this at home then you have the luxury of more involved tutorials and interactive! See the resources listed at the bottom.
+This tutorial is designed to presented in person and give you a flavour for programming in under an hour, so there are a couple things missing... See the resources listed at the bottom for more complete tutorials!
 
-###### Note:
-We'll be using this online programming evironment [https://repl.it/languages/python3](https://repl.it/languages/python3)
 
 ## Why learn coding?
  > "IDC Canada estimates there are 54,000 unfilled information technology jobs in Canada"
@@ -43,20 +41,20 @@ will be translated in a series of machine instructions which look like the opera
 I described above.
 
 In this tutorial we will be learning Python 3, but all the concepts we learn will
-generalize to other langauges. Here are some lanaguages you may have heard of
+generalize to other languages. Here are some languages you may have heard of
 and what they're used for:
 
 | Language  | Uses 
 |-----------|------
 |Python     | Web development, scientific computing 
 |Java       | Enterprise (a lot of big companies use Java), Android apps 
-|C++        | Game developement
+|C++        | Game development
 |JavaScript | Web development
 
 And many more!
 
 ## Your First Program
-As a matter of tradition, the first program someone usually learns (either if it's your first time programming, or you're an experienced programmer learning a new coding langauge) is the ["Hello, world!" program](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program#History)
+As a matter of tradition, the first program someone usually learns (either if it's your first time programming, or you're an experienced programmer learning a new coding language) is the ["Hello, world!" program](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program#History)
 
 This program prints "Hello, world!" to the screen!
 
@@ -98,7 +96,7 @@ print(hello)
 
 What do you think this does? Remember, `hello` is just a label for `"Hello, world!"`.
 When we tell the computer `print(hello)`, we're telling it: go to the label `hello`,
-find the information that label refers to and print that informat.
+find the information that label refers to and print that information.
 
 Your labels can be anything with letters, numbers or underscores (as long as it
 doesn't start with a number)
@@ -125,7 +123,7 @@ Whole numbers are called integers "ints".
 Numbers with decimal points are called "floats" (floating point number) 
 (or sometimes "doubles" for double precision floating point number)
 The bunches of characters and letters are called "strings" (strings of characters).
-Some languages make a disctintion between individual characters "chars" and strings,
+Some languages make a distinction between individual characters "chars" and strings,
 Python does not. 
 
 The more complicated your programs become, types will become more and more important!
@@ -157,7 +155,7 @@ At first, `hello` holds the information "Hello, world!", but on the second line 
 information is replaced with "Goodbye, world!". By the time we get to the print 
 statement, `hello` holds "Goodbye, world!" so that is what's printed. 
 
-In Python we can even change the type of a variable (though some langauges
+In Python we can even change the type of a variable (though some languages
 don't allow this and it's generally a bad idea).
 
 ```python
@@ -170,7 +168,7 @@ x = "x is a string now. don't do this"
 ## Operations on variables
 
 So we've covered the memory part! When we say `x = 5`, we're telling the computer to
-remeber a value and when we say `print(hello)`, we're telling to computer to access
+remember a value and when we say `print(hello)`, we're telling to computer to access
 the value it remembered.
 
 Next, I said computers can do basic operations. Let's say we want to do some addition.
@@ -243,7 +241,7 @@ x = x + 5
 x += 5
 ```
 
-Some langauges let you do `x++` or `x--` to add or subtract 1 respectively, but 
+Some languages let you do `x++` or `x--` to add or subtract 1 respectively, but 
 python doesn't allow this.
 
 
@@ -355,7 +353,7 @@ Python but we won't cover it today.
 Looks like I've almost covered everything on that list of what a computer can do! 
 All I'm missing is `if ... then ...`
 
-This is called control flow, and refers to a bunch of programming contrsucts that
+This is called control flow, and refers to a bunch of programming constructs that
 allow us to control the flow of our program.
 
 ### if then else
@@ -584,7 +582,7 @@ If we just guess every number, in the worst case it'll take us 100 tries! (if th
 You can try and implement this more efficient solution yourself!
 I've included a completed example below, for you to read through, but I won't give it a full explanation (we're probably out of time by now).
 
-Just a quick note, here we have used two different *algorithms* to guess the number. One algorithm was just two guess every number and the other was to use a binary search. While coding is all about what we've been doing today, computer science is all about finding effecient algorithms! A lot of the time that means just thinking about what would be faster without writing any actual code (like we've done here).
+Just a quick note, here we have used two different *algorithms* to guess the number. One algorithm was just two guess every number and the other was to use a binary search. While coding is all about what we've been doing today, computer science is all about finding efficient algorithms! A lot of the time that means just thinking about what would be faster without writing any actual code (like we've done here).
 
 There is a difference between programming/coding and computer science!
 
@@ -600,13 +598,13 @@ For your reference:
 ## Resources
 
 ### Tutorials
-* [CodeCademy](https://www.codecademy.com/lrn/python): Great for a first time programmer! Covers all the concepts in this tutorial and everything this tutorial left out with plenty of practice excercies. 
+* [CodeCademy](https://www.codecademy.com/lrn/python): Great for a first time programmer! Covers all the concepts in this tutorial and everything this tutorial left out with plenty of practice exercises. 
 * [LearnPython](http://www.learnpython.org/): A little less explanation than CodeCademy. If this tutorial seemed slow to you then this is the place to go!
 
 Both the above have links to resources for other languages as well! If you enjoyed this tutorial, I highly suggest you check out one of the tutorials above! There are a couple important things I left out since I didn't have time. 
 
 ### Other
-* [Excercies](http://www.cplusplus.com/forum/articles/12974/): This is a blog post from a C++ community about excercies to get practice coding, once you're comfortable with all the material we touched on today. Even though it was written for C++, they're great excercies for all languages.
+* [Exercises](http://www.cplusplus.com/forum/articles/12974/): This is a blog post from a C++ community about exercises to get practice coding, once you're comfortable with all the material we touched on today. Even though it was written for C++, they're great exercises for all languages.
 * [HackMcGill](https://www.facebook.com/groups/hackmcgill/): A computer science community at McGill, we host events and tutorials. This is a great place to go if you're looking to learn more about the computer science community or get involved.
 * [Hack101](https://github.com/hack101): Once you are comfortable with programming, and want to put your skills to use, we have two tutorial series here! One on web programming (in Python) and one on Android programming (Java). Stay tuned in the HackMcGill group in case we hold these tutorials again.
 * Me: If you don't want to post in the HackMcGill group, feel free to ask me any questions! You can find me on facebook (Amiel Kollek) or shoot me an email at [amiel.kollek@mail.mcgill.ca](mailto:amiel.kollek@mail.mcgill.ca). I'm always happy to suggest resources or answer questions about programming.
